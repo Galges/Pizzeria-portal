@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../Event/Event.module.scss';
 
 const Event = (value) => {
-
   const id = value.match.params.id;
 
   return(
