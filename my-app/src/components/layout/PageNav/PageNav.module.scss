@@ -2,9 +2,16 @@
 
 .component {
   padding: $base-size;
+  margin-left: auto;
 }
 nav{
   a{
   margin: 10px;
   }
+}
+
+.link{
+  color: black;
+  font-size: large;
+  font-weight: bold;
 }
