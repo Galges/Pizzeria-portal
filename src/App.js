@@ -10,10 +10,10 @@ import Booking from './components/views/Booking/Booking';
 import Event from './components/views/Event/Event';
 import Order from './components/views/Order/Order';
 import { StylesProvider } from '@material-ui/core/styles';
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {
       main: '#ff7043',
